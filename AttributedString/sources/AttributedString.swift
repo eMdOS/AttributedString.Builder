@@ -13,6 +13,12 @@ func attributeTuple(for attribute: AttributedString.Builder.Attribute) -> Attrib
         return (key: .foregroundColor, value: color)
     case .background(let color):
         return (key: .backgroundColor, value: color)
+    case .strokeWidth(let width, let fill):
+        return (key: .strokeWidth, value: fill ? -fabs(width) : fabs(width))
+    case .strokeColor(let color):
+        return (key: .strokeColor, value: color)
+    case .link(let url):
+        return (key: .link, value: url)
     }
 }
 
@@ -35,8 +41,10 @@ public extension AttributedString {
             case font(UIFont)
             case text(color: UIColor)
             case background(color: UIColor)
+            case strokeWidth(Double, fill: Bool)
+            case strokeColor(UIColor)
+            case link(String)
         }
-
 
         /// The actual `build` function which returns the built `AttributedString`.
         ///
