@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/kon9509/Development/eMdOS/AttributedStringBuilder/Project.xcodeproj">
+      location = "container:AttributedString.xcodeproj">
    </FileRef>
 </Workspace>

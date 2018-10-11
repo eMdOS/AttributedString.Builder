@@ -32,7 +32,8 @@
 		E2518660216E3CE600759A15 = {
 			isa = PBXGroup;
 			children = (
-				E251866E216E3E4800759A15 /* AttributedString */,
+				E2518675216E3E6F00759A15 /* sources */,
+				E251866E216E3E4800759A15 /* config */,
 				E251866D216E3E4800759A15 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,14 +46,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E251866E216E3E4800759A15 /* AttributedString */ = {
+		E251866E216E3E4800759A15 /* config */ = {
 			isa = PBXGroup;
 			children = (
 				E2518670216E3E4800759A15 /* Info.plist */,
 				E251866F216E3E4800759A15 /* AttributedString.h */,
-				E2518675216E3E6F00759A15 /* sources */,
 			);
-			path = AttributedString;
+			path = config;
 			sourceTree = "<group>";
 		};
 		E2518675216E3E6F00759A15 /* sources */ = {
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2518664216E3CE600759A15 /* Build configuration list for PBXProject "Project" */;
+			buildConfigurationList = E2518664216E3CE600759A15 /* Build configuration list for PBXProject "AttributedString" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,7 +218,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = AttributedString/Info.plist;
+				INFOPLIST_FILE = config/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = AttributedString/Info.plist;
+				INFOPLIST_FILE = config/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2518664216E3CE600759A15 /* Build configuration list for PBXProject "Project" */ = {
+		E2518664216E3CE600759A15 /* Build configuration list for PBXProject "AttributedString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2518665216E3CE600759A15 /* Debug */,
